@@ -6,21 +6,18 @@ using UnityEngine.UI;
 public class AudioVolume : MonoBehaviour
 {
     [SerializeField] Slider slider;
-    [SerializeField] AudioSource BGM;
 
     float volume;
     float maxVolume = 1f;
     float minVolume = 0;
 
+    // Start is called before the first frame update
     void Start()
     {
-        BGM = AudioManager.audioInstance.GetComponentInChildren<AudioSource>();
-        AudioManager.audioInstance.switchAudio();
-
         volume = PlayerPrefs.GetFloat("Volume");
         
         slider.value = volume;
-        BGM.volume = volume;
+        AudioManager.audioInstance.BGM.volume = volume;
     }
 
     public void volumeUp()
@@ -31,8 +28,7 @@ public class AudioVolume : MonoBehaviour
             slider.value = volume;
         }
 
-        // AudioManager.audioInstance.BGM.volume = volume;
-        BGM.volume = volume;
+        AudioManager.audioInstance.BGM.volume = volume;
 
         PlayerPrefs.SetFloat("Volume", volume);
     }
@@ -45,7 +41,7 @@ public class AudioVolume : MonoBehaviour
             slider.value = volume;
         }
 
-        BGM.volume = volume;
+        AudioManager.audioInstance.BGM.volume = volume;
 
         PlayerPrefs.SetFloat("Volume", volume);
     }

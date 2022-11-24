@@ -433,7 +433,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -447,7 +447,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1803149792}
   m_FillRect: {fileID: 1803149791}
   m_HandleRect: {fileID: 0}
@@ -1337,7 +1337,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 190082590}
-  BGM: {fileID: 0}
 --- !u!4 &1008335780
 Transform:
   m_ObjectHideFlags: 0
@@ -3192,12 +3191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c509b3dbf30754ba36a833e0332f00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ClipBGM:
-  - {fileID: 8300000, guid: 3052e07f6a135ba49af11e7b99211734, type: 3}
-  - {fileID: 8300000, guid: e7a3d95679886f14381ec49d6f0d8713, type: 3}
-  - {fileID: 8300000, guid: a4adc6d34ab46af4383a7b0388bc021e, type: 3}
-  mixer: {fileID: 24300002, guid: ad544c33c4bda0c45811a27ce7f56b1f, type: 2}
-  BGM: {fileID: 0}
+  BGM: {fileID: 1922700981}
 --- !u!4 &1718006261
 Transform:
   m_ObjectHideFlags: 0
@@ -3526,7 +3520,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: ad544c33c4bda0c45811a27ce7f56b1f, type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 3052e07f6a135ba49af11e7b99211734, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
