@@ -822,10 +822,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2036213135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81918d6855ad69e4c927b0d00c044fa6, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a05e0d000637c84b9138a1b06db830d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imageLoading: {fileID: 75838806}
+  imageLoader: {fileID: 75838806}
 --- !u!1 &2087433579
 GameObject:
   m_ObjectHideFlags: 0

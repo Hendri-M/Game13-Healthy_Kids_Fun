@@ -1337,6 +1337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 190082590}
+  instanceFromAudioManager: {fileID: 0}
 --- !u!4 &1008335780
 Transform:
   m_ObjectHideFlags: 0
@@ -3191,7 +3192,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c509b3dbf30754ba36a833e0332f00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BGM: {fileID: 1922700981}
+  clipBGM:
+  - {fileID: 8300000, guid: 3052e07f6a135ba49af11e7b99211734, type: 3}
+  - {fileID: 8300000, guid: 130b74f53e9f8d345a591c19f6829903, type: 3}
+  - {fileID: 8300000, guid: af75e810c3a797744bbd552c58b06e4d, type: 3}
+  BGM: {fileID: 0}
 --- !u!4 &1718006261
 Transform:
   m_ObjectHideFlags: 0
@@ -3520,7 +3525,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: ad544c33c4bda0c45811a27ce7f56b1f, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 3052e07f6a135ba49af11e7b99211734, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1

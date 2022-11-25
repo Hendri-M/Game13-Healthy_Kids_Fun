@@ -12,33 +12,24 @@ public class PilihKarakter : MonoBehaviour
     [SerializeField] Animator animateCewe;
 
     bool isIdle;
-    float pilihKarakter;
 
     private void Start()
     {
-        isIdle = false; 
+        isIdle = false;    
     }
-    
-    public void pilihCowo(int pilih)
+    public void pilihCowo()
     {
         animateCewe.SetBool("IdleCewe", false);
-        
-        pilihKarakter = pilih;
+        Debug.Log("Cowo");
         isIdle = true;
         animateCowo.SetBool("IdleCowo", isIdle);
     }
     
-    public void pilihCewe(int pilih)
+    public void pilihCewe()
     {
         animateCowo.SetBool("IdleCowo", false);
-        
-        pilihKarakter = pilih;
+        Debug.Log("Cewe");
         isIdle = true;
         animateCewe.SetBool("IdleCewe", isIdle);
-    }
-
-    public void savePilihan()
-    {
-        PlayerPrefs.SetFloat("Karakter", pilihKarakter);
     }
 }
