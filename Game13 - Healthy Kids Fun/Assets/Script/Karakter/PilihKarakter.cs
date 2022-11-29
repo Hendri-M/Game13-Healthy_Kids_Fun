@@ -8,7 +8,7 @@ public class PilihKarakter : MonoBehaviour
 {
     [SerializeField] Image karakterCowo;
     [SerializeField] Image karakterCewe;
-    [SerializeField] Sprite[] karakter;
+    public Sprite[] karakter;
     [SerializeField] Animator animateCowo;
     [SerializeField] Animator animateCewe;
     [SerializeField] Button btnNext;
@@ -43,7 +43,7 @@ public class PilihKarakter : MonoBehaviour
         karakterCowo.sprite = karakter[1];
         karakterCewe.sprite = karakter[4];
 
-        // saveKarakter();
+        saveKarakter();
     }
     
     public void pilihCewe()
@@ -60,7 +60,7 @@ public class PilihKarakter : MonoBehaviour
         karakterCewe.sprite = karakter[5];
         karakterCowo.sprite = karakter[0];
 
-        // saveKarakter();
+        saveKarakter();
     }
 
     public void saveKarakter()

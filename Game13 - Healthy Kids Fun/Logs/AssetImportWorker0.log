@@ -15,7 +15,7 @@ C:/Users/Ndroot/Documents/MEGA/Github/Game13-Healthy_Kids_Fun/Game13 - Healthy K
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54738
+58143
 Successfully changed project path to: C:/Users/Ndroot/Documents/MEGA/Github/Game13-Healthy_Kids_Fun/Game13 - Healthy Kids Fun
 C:/Users/Ndroot/Documents/MEGA/Github/Game13-Healthy_Kids_Fun/Game13 - Healthy Kids Fun
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Ndroot/Documents/MEGA/Github/Game13-Healthy_Kids_Fun/Game13 - Healthy K
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 136.35 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 114.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,45 +63,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009578 seconds.
+Registered in 0.010238 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 122.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.811 seconds
+- Completed reload, in  0.929 seconds
 Domain Reload Profiling:
-	ReloadAssembly (812ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (929ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (566ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (631ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (161ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (344ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (366ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (72ms)
+				InitializePlatformSupportModulesInManaged (77ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (113ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (114ms)
 				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,7 +109,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009206 seconds.
+Registered in 0.012917 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ndroot\Documents\MEGA\Github\Game13-Healthy_Kids_Fun\Game13 - Healthy Kids Fun\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ndroot\Documents\MEGA\Github\Game13-Healthy_Kids_Fun\Game13 - Healthy Kids Fun\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -117,46 +117,46 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 103.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 116.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.487 seconds
+- Completed reload, in  1.716 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1488ms)
-		BeginReloadAssembly (239ms)
+	ReloadAssembly (1718ms)
+		BeginReloadAssembly (277ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (136ms)
-		EndReloadAssembly (1091ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (140ms)
+		EndReloadAssembly (1268ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (361ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (556ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (644ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4087 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (55.3 KB). Loaded Objects now: 4546.
-Memory consumption went from 155.0 MB to 155.0 MB.
-Total: 3.941500 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.256900 ms MarkObjects: 3.237100 ms  DeleteObjects: 0.116000 ms)
+Unloading 38 unused Assets / (55.3 KB). Loaded Objects now: 4547.
+Memory consumption went from 155.1 MB to 155.0 MB.
+Total: 4.545600 ms (FindLiveObjects: 0.491100 ms CreateObjectMapping: 0.394200 ms MarkObjects: 3.550400 ms  DeleteObjects: 0.109000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,98 +170,44 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 42182.145100 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Karakter/Ibu
-  artifactKey: Guid(bdf025a61e9c3bc4fb1209d9a028f69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Karakter/Ibu using Guid(bdf025a61e9c3bc4fb1209d9a028f69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70b656301c89aaa71e32a55c5a27d5a') in 0.021578 seconds 
+  Time since last request: 6109.844450 seconds.
+  path: Assets/Assets Healthy Kids Fun/Font/TT0524M_.TTF
+  artifactKey: Guid(480d5d98f9e00f04a8d487b981a53296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Font/TT0524M_.TTF using Guid(480d5d98f9e00f04a8d487b981a53296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aebd495b6b3720da854fa007e7c6a27') in 0.361950 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.237713 seconds.
-  path: Assets/Scenes/RuangMakan.unity
-  artifactKey: Guid(7f7268a12d1179847ad6b7db9979d8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RuangMakan.unity using Guid(7f7268a12d1179847ad6b7db9979d8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd8d3579fc5efc6b57e6a2671257c5d') in 0.006726 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets Healthy Kids Fun/Button/Score.png
+  artifactKey: Guid(6050dcdf3fe22154797b65208172e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Button/Score.png using Guid(6050dcdf3fe22154797b65208172e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5824d04ad1ed20f06934f56fbad76d') in 0.130476 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1498.697037 seconds.
-  path: Assets/Assets Healthy Kids Fun/Font
-  artifactKey: Guid(147b21421b3ba78408852b96e2d57873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Font using Guid(147b21421b3ba78408852b96e2d57873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d782cff0ff37180a9bff851aa005329') in 0.012578 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets Healthy Kids Fun/Button/Books.png
+  artifactKey: Guid(7731afff91725764d8f13ecab2a15fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Button/Books.png using Guid(7731afff91725764d8f13ecab2a15fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f51a7e950fb4a4639f86017bc13af2') in 0.175811 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.233918 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image
-  artifactKey: Guid(26cc7a4edf35ce64986c694f78a411c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image using Guid(26cc7a4edf35ce64986c694f78a411c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0bb738ced96ae408ae96344e0e7f6a') in 0.006779 seconds 
+  Time since last request: 220.898978 seconds.
+  path: Assets/Assets Healthy Kids Fun/Button/Quit.png
+  artifactKey: Guid(373a25b6ea075044cbaa792738cbcc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Button/Quit.png using Guid(373a25b6ea075044cbaa792738cbcc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f029f82cd26ca8b9508c8faf37ad80af') in 0.031824 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.086684 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/Buah
-  artifactKey: Guid(25340ed5c7a16c34bb2e687224289866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/Buah using Guid(25340ed5c7a16c34bb2e687224289866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200b886ada6191f4a27c6f71ad2b6494') in 0.007918 seconds 
+  Time since last request: 94.961148 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Background dan Logo/bg main menu.png
+  artifactKey: Guid(4921c570f749ab741a85fc470501e921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Background dan Logo/bg main menu.png using Guid(4921c570f749ab741a85fc470501e921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0080ac2e5616282082787aaaa2c0e17f') in 0.203193 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.350862 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/Daging
-  artifactKey: Guid(471f3fd9972fce64ab5cc9c7214e8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/Daging using Guid(471f3fd9972fce64ab5cc9c7214e8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0e348ff380cccd4aa04e70c4758bc7') in 0.020568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.630761 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/Sayur
-  artifactKey: Guid(f55b3ec3379b7ce44a8d8ac711daf792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/Sayur using Guid(f55b3ec3379b7ce44a8d8ac711daf792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf364cc47095b94923f7cff81928f70') in 0.014981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 78.497921 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti
-  artifactKey: Guid(3c47fc1c07e8e1d4ba77bc8ae5be93f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti using Guid(3c47fc1c07e8e1d4ba77bc8ae5be93f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c742d648ad75710fa61c59f1f1f70e79') in 0.007019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.262961 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti/roti4-04.png
-  artifactKey: Guid(720628c498d42144399b4254d7f03f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti/roti4-04.png using Guid(720628c498d42144399b4254d7f03f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecffc2594b233f5516fef34dd7382a4') in 0.406435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3559.896409 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/JunkFoods/menu2-02.png
-  artifactKey: Guid(a9b67ce30896d6748b50559aa9b90483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/JunkFoods/menu2-02.png using Guid(a9b67ce30896d6748b50559aa9b90483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9e2baa73fc8f1b714f6a9d93a201fb') in 0.102357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.696007 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/JunkFoods/menu3-03.png
-  artifactKey: Guid(7c471db5765b4e44ba4e03a4dfb6852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/JunkFoods/menu3-03.png using Guid(7c471db5765b4e44ba4e03a4dfb6852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5caf63ac75db2f2c18114cbbb36f17') in 0.078517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 78.615973 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(ac4070acf2af4ae4a8d2b6fd2d4b9de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(ac4070acf2af4ae4a8d2b6fd2d4b9de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745dd3316a865c81f738d613ba9b9b49') in 0.006894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.776311 seconds.
-  path: Assets/Prefabs/Sandwich.prefab
-  artifactKey: Guid(5a96f4cf0f40b954c9a580050cf4caf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sandwich.prefab using Guid(5a96f4cf0f40b954c9a580050cf4caf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f233e52612d2d6ed3f01a4a9e31a0216') in 0.054570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.485394 seconds.
-  path: Assets/Prefabs/Friedchicken.prefab
-  artifactKey: Guid(c14454335386b88488537fdb0978d0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Friedchicken.prefab using Guid(c14454335386b88488537fdb0978d0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d136bc5eb8d1607e9526ab8820ca052') in 0.019053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.339100 seconds.
-  path: Assets/Prefabs/Burger.prefab
-  artifactKey: Guid(92a254ff6410aa04da4adab04bfaaf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Burger.prefab using Guid(92a254ff6410aa04da4adab04bfaaf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56cfdf3371d214516483e648d2b301e') in 0.055937 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Background dan Logo/logo main.png
+  artifactKey: Guid(83d26880b2c8b6a40bebf9db273b926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Background dan Logo/logo main.png using Guid(83d26880b2c8b6a40bebf9db273b926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f21c057401710d7f7c6affc9d948a28') in 0.127899 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007813 seconds.
+Registered in 0.009380 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ndroot\Documents\MEGA\Github\Game13-Healthy_Kids_Fun\Game13 - Healthy Kids Fun\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ndroot\Documents\MEGA\Github\Game13-Healthy_Kids_Fun\Game13 - Healthy Kids Fun\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -269,43 +215,102 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.433 seconds
+- Completed reload, in  1.407 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1434ms)
-		BeginReloadAssembly (273ms)
+	ReloadAssembly (1408ms)
+		BeginReloadAssembly (182ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (23ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (116ms)
-		EndReloadAssembly (1039ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1074ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
+			SetupTypeCache (265ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (432ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (590ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (44ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4063 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4561.
-Memory consumption went from 157.5 MB to 157.5 MB.
-Total: 5.629700 ms (FindLiveObjects: 0.304600 ms CreateObjectMapping: 0.298500 ms MarkObjects: 4.995700 ms  DeleteObjects: 0.029900 ms)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4608.
+Memory consumption went from 157.9 MB to 157.9 MB.
+Total: 4.013100 ms (FindLiveObjects: 0.302800 ms CreateObjectMapping: 0.198100 ms MarkObjects: 3.462600 ms  DeleteObjects: 0.048600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008314 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ndroot\Documents\MEGA\Github\Game13-Healthy_Kids_Fun\Game13 - Healthy Kids Fun\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ndroot\Documents\MEGA\Github\Game13-Healthy_Kids_Fun\Game13 - Healthy Kids Fun\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.441 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1442ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1181ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4611.
+Memory consumption went from 157.9 MB to 157.9 MB.
+Total: 5.529500 ms (FindLiveObjects: 0.440800 ms CreateObjectMapping: 0.471000 ms MarkObjects: 4.577300 ms  DeleteObjects: 0.039200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -319,40 +324,70 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 468.594019 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti/roti1-01.png
-  artifactKey: Guid(ac866f7d13cc3874c9bb16940987559a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti/roti1-01.png using Guid(ac866f7d13cc3874c9bb16940987559a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407668a00f76fa21a54785baa5c2b798') in 0.534593 seconds 
+  Time since last request: 1176.705683 seconds.
+  path: Assets/Scenes/RuangMakan.unity
+  artifactKey: Guid(7f7268a12d1179847ad6b7db9979d8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RuangMakan.unity using Guid(7f7268a12d1179847ad6b7db9979d8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa419ede95191ca99f697966018e553') in 0.012865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.424108 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Button/benar.png
+  artifactKey: Guid(5aa179a4879aea1498afc122f57255cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Button/benar.png using Guid(5aa179a4879aea1498afc122f57255cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a2c497ec496c7c5ae6a90195ff9f04') in 0.214840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Button/next1.png
+  artifactKey: Guid(67d7f76ac5a4f924fb150362d7834dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Button/next1.png using Guid(67d7f76ac5a4f924fb150362d7834dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd856523af2f5dca206b49adb4128adf1') in 0.040732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Button/setting1.png
+  artifactKey: Guid(f956efa987a76214bb4f96b4ee4b1add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Button/setting1.png using Guid(f956efa987a76214bb4f96b4ee4b1add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0644dca602e563a91750e5ac89705d1') in 0.041606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Button/salah.png
+  artifactKey: Guid(fe92f3e26777e0c4b80caeade784728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Button/salah.png using Guid(fe92f3e26777e0c4b80caeade784728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6de10f8df31d5bcd08fca8724a2e76d') in 0.048639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Button/Retry.png
+  artifactKey: Guid(847e9f96142579b44bd700a04af74451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Button/Retry.png using Guid(847e9f96142579b44bd700a04af74451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bef90698817188238a8f025f8e3c54') in 0.040780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.867624 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Icon/BG loading.png
+  artifactKey: Guid(66247240c7f20c24db945cc599decfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Icon/BG loading.png using Guid(66247240c7f20c24db945cc599decfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d721aa05b2fc59e9223d366735431fb') in 0.204459 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti/roti3-03.png
-  artifactKey: Guid(ace75b65e2a059249a4128b8bbbd736c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti/roti3-03.png using Guid(ace75b65e2a059249a4128b8bbbd736c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1f4ca0c89c3dc4919b6594dc4527df') in 0.181040 seconds 
+  path: Assets/Assets Healthy Kids Fun/Image/Icon/Loading_icon.png
+  artifactKey: Guid(6b744172453523d47b4b1a6159b445a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Icon/Loading_icon.png using Guid(6b744172453523d47b4b1a6159b445a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6158183d7b01703bef6aec4db34e27') in 0.030591 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti/roti6-06.png
-  artifactKey: Guid(e12e07a6db5e1a34695c19c21476dcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti/roti6-06.png using Guid(e12e07a6db5e1a34695c19c21476dcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636951000259ccbb27de226d10540325') in 0.206043 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Icon/setting1besar.png
+  artifactKey: Guid(20270f46289d9e24a9502f5a5e04c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Icon/setting1besar.png using Guid(20270f46289d9e24a9502f5a5e04c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe6afd59922b07f84963a4424754a25') in 0.070720 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti/roti8-08.png
-  artifactKey: Guid(1f9eea49d26f00a49b6da9c76601676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/Roti/roti8-08.png using Guid(1f9eea49d26f00a49b6da9c76601676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a975cfeba89efd676672f9884b95e34') in 0.322563 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Icon/win 1.png
+  artifactKey: Guid(5d3900969541b4f4cb68e01d5edb750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Icon/win 1.png using Guid(5d3900969541b4f4cb68e01d5edb750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03790230d809c5a616322c1fd05103f6') in 0.064914 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.403337 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/JunkFoods/menu4-04.png
-  artifactKey: Guid(02f9763ca34468840a55aa6e0557caa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/JunkFoods/menu4-04.png using Guid(02f9763ca34468840a55aa6e0557caa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf588786e957ec54e2a370552bd5d2f') in 0.125001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Assets Healthy Kids Fun/Image/Market/Items/JunkFoods/menu6-06.png
-  artifactKey: Guid(7047dffae613aa04886aba3439beb15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets Healthy Kids Fun/Image/Market/Items/JunkFoods/menu6-06.png using Guid(7047dffae613aa04886aba3439beb15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908ef3c43db76fa83f5506fbdc922ea3') in 0.154360 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets Healthy Kids Fun/Image/Icon/volume setting_gerak.png
+  artifactKey: Guid(0c0479364f4e1654a9b0ceca36097c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Healthy Kids Fun/Image/Icon/volume setting_gerak.png using Guid(0c0479364f4e1654a9b0ceca36097c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194430c4f839e7502a29dcd4b6c88696') in 0.028959 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

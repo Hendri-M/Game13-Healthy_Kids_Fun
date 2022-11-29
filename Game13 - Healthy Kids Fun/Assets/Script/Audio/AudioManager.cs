@@ -12,20 +12,22 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
-        if (audioInstance != null)
+        BGM = GetComponentInChildren<AudioSource>();
+
+        if (audioInstance == null)
         {
-            Destroy(audioInstance);
+            audioInstance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            audioInstance = this;
-            DontDestroyOnLoad(audioInstance);
+            Destroy(gameObject);
         }
-        BGM = GetComponentInChildren<AudioSource>();
     }
 
     private void Start()
     {
+        // BGM = GetComponentInChildren<AudioSource>();
         switchAudio();
     }
 
@@ -39,8 +41,6 @@ public class AudioManager : MonoBehaviour
 
                 BGM.clip = clipBGM[i];
                 BGM.Play();
-
-                break;
             }
         }
     }

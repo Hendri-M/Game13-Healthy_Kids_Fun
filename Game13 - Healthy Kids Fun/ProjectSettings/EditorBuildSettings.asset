@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SelectCharacter.unity
     guid: af0ef86b7c62b5748828bf7c43dd4aee
   - enabled: 1
+    path: Assets/Scenes/RuangMakan.unity
+    guid: 7f7268a12d1179847ad6b7db9979d8ee
+  - enabled: 1
     path: Assets/Scenes/LoadingScreen.unity
     guid: 227259d1566cfba4699e6ab4811c2297
   m_configObjects: {}

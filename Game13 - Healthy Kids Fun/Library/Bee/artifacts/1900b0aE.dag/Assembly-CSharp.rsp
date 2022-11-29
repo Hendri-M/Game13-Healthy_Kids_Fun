@@ -377,11 +377,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/Audio/AudioManager.cs"
 "Assets/Script/Audio/AudioVolume.cs"
+"Assets/Script/Karakter/LoadKarakter.cs"
 "Assets/Script/Karakter/PilihKarakter.cs"
+"Assets/Script/Karakter/RuangMakanManager.cs"
 "Assets/Script/Scene Manager/LoadingProgress.cs"
 "Assets/Script/Scene Manager/LoadScene.cs"
 "Assets/Script/Scene Manager/SceneLoader.cs"
 "Assets/Script/Scene Manager/SplashScreen.cs"
+"Assets/Script/Spawner/FoodChoosen.cs"
 "Assets/Script/Spawner/FoodSpawner.cs"
 -langversion:9.0
 

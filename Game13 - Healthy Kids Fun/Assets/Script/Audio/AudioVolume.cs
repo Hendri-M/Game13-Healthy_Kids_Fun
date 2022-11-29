@@ -11,15 +11,11 @@ public class AudioVolume : MonoBehaviour
     float volume;
     float maxVolume = 1f;
     float minVolume = 0;
-
+ 
     void Start()
     {
         instanceFromAudioManager = AudioManager.audioInstance.GetComponentInChildren<AudioSource>();
-        
-        // if (instanceFromAudioManager == AudioManager.audioInstance.BGM)
-        // {
-        //     AudioManager.audioInstance.switchAudio();
-        // }
+
         AudioManager.audioInstance.switchAudio();
 
         volume = PlayerPrefs.GetFloat("Volume");
@@ -36,7 +32,6 @@ public class AudioVolume : MonoBehaviour
             slider.value = volume;
         }
 
-        // AudioManager.audioInstance.BGM.volume = volume;
         instanceFromAudioManager.volume = volume;
 
         PlayerPrefs.SetFloat("Volume", volume);
