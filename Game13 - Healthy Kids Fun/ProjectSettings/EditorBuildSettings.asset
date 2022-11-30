@@ -18,6 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/RuangMakan.unity
     guid: 7f7268a12d1179847ad6b7db9979d8ee
   - enabled: 1
+    path: Assets/Scenes/Bekal.unity
+    guid: d466ecdadc79b11478e16a0775faa073
+  - enabled: 1
+    path: Assets/Scenes/QuizSchool.unity
+    guid: c34e8d1955a3ed741919ac83d49d6e92
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: bca77499fee87db4188f4a3512c8bbcf
+  - enabled: 1
     path: Assets/Scenes/LoadingScreen.unity
     guid: 227259d1566cfba4699e6ab4811c2297
   m_configObjects: {}
