@@ -9,6 +9,8 @@ public class LoadKarakter : MonoBehaviour
     [SerializeField] Sprite[] pose;
 
     int pilihKarakter;
+
+// TIDAK DI PAKAI SCRIPT INI
     
     void Start()
     {
@@ -24,4 +26,5 @@ public class LoadKarakter : MonoBehaviour
             karakter.sprite = pose[4];
         }
     }
+
 }

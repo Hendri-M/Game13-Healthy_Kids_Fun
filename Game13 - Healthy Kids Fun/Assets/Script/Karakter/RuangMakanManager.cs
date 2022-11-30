@@ -9,6 +9,8 @@ public class RuangMakanManager : MonoBehaviour
     [SerializeField] GameObject prefabsKarakter;
     [SerializeField] Button nextButton;
 
+    // SCRIPT INI TIDAK DIGUNAKAN
+
     void Start()
     {
         Instantiate(prefabsKarakter, loadKarakter.transform);
