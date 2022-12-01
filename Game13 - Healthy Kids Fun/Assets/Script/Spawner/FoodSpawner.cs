@@ -5,16 +5,16 @@ using UnityEngine.UI;
 
 public class FoodSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject[] foods;
+    [SerializeField] UnityEngine.GameObject[] foods;
     // [SerializeField] GameObject[] post;
-    [SerializeField] GameObject foodPosition;
+    [SerializeField] UnityEngine.GameObject foodPosition;
 
     // Start is called before the first frame update
     void Start()
     {
         int spawn = Random.Range(0, foods.Length);
 
-        GameObject newImage = Instantiate(foods[spawn], transform.position, Quaternion.identity);
+        UnityEngine.GameObject newImage = Instantiate(foods[spawn], transform.position, Quaternion.identity);
         newImage.transform.SetParent(foodPosition.transform, true);
         // newImage.SetActive(true);
        

@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class RuangMakanManager : MonoBehaviour
 {
-    [SerializeField] GameObject loadKarakter;
-    [SerializeField] GameObject prefabsKarakter;
+    [SerializeField] UnityEngine.GameObject loadKarakter;
+    [SerializeField] UnityEngine.GameObject prefabsKarakter;
     [SerializeField] Button nextButton;
 
     // SCRIPT INI TIDAK DIGUNAKAN

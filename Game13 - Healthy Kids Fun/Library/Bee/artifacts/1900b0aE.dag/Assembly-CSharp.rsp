@@ -380,6 +380,8 @@
 "Assets/Script/Karakter/LoadKarakter.cs"
 "Assets/Script/Karakter/PilihKarakter.cs"
 "Assets/Script/Karakter/RuangMakanManager.cs"
+"Assets/Script/PilihBekalManager.cs"
+"Assets/Script/QuizManager.cs"
 "Assets/Script/RMakanManager.cs"
 "Assets/Script/Scene Manager/LoadingProgress.cs"
 "Assets/Script/Scene Manager/LoadScene.cs"
