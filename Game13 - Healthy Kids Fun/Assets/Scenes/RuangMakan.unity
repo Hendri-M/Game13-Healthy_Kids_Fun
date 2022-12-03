@@ -607,7 +607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 97.8323, y: -31.4652}
+  m_AnchoredPosition: {x: 137.8323, y: -31.4652}
   m_SizeDelta: {x: 195.6646, y: 62.9304}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &138482427
@@ -877,7 +877,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 160.055, y: -205.23065}
+  m_AnchoredPosition: {x: 200.055, y: -205.23065}
   m_SizeDelta: {x: 320.11, y: 65.5335}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &142959328
@@ -1012,7 +1012,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 160.055, y: -292.76416}
+  m_AnchoredPosition: {x: 200.055, y: -292.76416}
   m_SizeDelta: {x: 320.11, y: 65.5335}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &173994599
@@ -1702,7 +1702,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4edd27576003394692913850517db28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextButton: {fileID: 0}
   choosenFoods: []
   loadKarakter: {fileID: 268945914}
   poseKarakter:
@@ -2360,7 +2359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 41
+    m_Left: 19
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
@@ -2581,7 +2580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 549.70557, y: -160.0534}
+  m_AnchoredPosition: {x: 527.7055, y: -160.0534}
   m_SizeDelta: {x: 160.4748, y: 320.1068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &447144020
@@ -3178,7 +3177,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 232.73405, y: -160.0534}
+  m_AnchoredPosition: {x: 210.73405, y: -160.0534}
   m_SizeDelta: {x: 383.4681, y: 320.1068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573823976
@@ -3958,7 +3957,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sudah pagi, sarapan apa hari ini?
+  m_text: Di setiap pagi, sarapan apa?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6546a8f5cb871304b96c34dca40bec95, type: 2}
   m_sharedMaterial: {fileID: 2245581236665312682, guid: 6546a8f5cb871304b96c34dca40bec95, type: 2}
@@ -5343,7 +5342,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 761.3116, y: -160.0534}
+  m_AnchoredPosition: {x: 739.3116, y: -160.05331}
   m_SizeDelta: {x: 172.7374, y: 320.1068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1238173242
@@ -5359,7 +5358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
+    m_Left: 40
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
@@ -6587,7 +6586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 115.8632, y: -117.69716}
+  m_AnchoredPosition: {x: 155.86319, y: -117.69716}
   m_SizeDelta: {x: 231.7264, y: 65.5335}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1810320581

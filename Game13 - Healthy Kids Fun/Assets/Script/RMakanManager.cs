@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class RMakanManager : MonoBehaviour
 {
     [Header("Button")]
-    [SerializeField] Button nextButton;
     [SerializeField] Button[] choosenFoods;
 
     [Header("Image")]
@@ -43,7 +42,6 @@ public class RMakanManager : MonoBehaviour
             loadKarakter.sprite = poseKarakter[4];
         }
 
-        nextButton.interactable = false;
         panelGizi.SetActive(false);
         panelWarning.SetActive(false);
         
@@ -52,7 +50,7 @@ public class RMakanManager : MonoBehaviour
     public void menuMakanan1()
     {
         Debug.Log("Makanan1");
-        energi = 474f;
+        energi = 474.0f;
         protein = 15.24f;
         karbohidrat = 81.84f;
         lemak = 10.59f;
@@ -72,7 +70,7 @@ public class RMakanManager : MonoBehaviour
     public void menuMakanan2()
     {
         Debug.Log("Makanan2");
-        energi = 404f;
+        energi = 404.0f;
         protein = 10.16f;
         karbohidrat = 87.8f;
         lemak = 2.02f;
@@ -90,7 +88,7 @@ public class RMakanManager : MonoBehaviour
     public void menuMakanan3()
     {
         Debug.Log("Makanan3");
-        energi = 332f;
+        energi = 332.0f;
         protein = 6.6f;
         karbohidrat = 47.41f;
         lemak = 15.31f;
@@ -108,7 +106,7 @@ public class RMakanManager : MonoBehaviour
     public void menuMakanan4()
     {
         Debug.Log("Makanan4");
-        energi = 290f;
+        energi = 290.0f;
         protein = 10.34f;
         karbohidrat = 42.07f;
         lemak = 10.09f;
@@ -126,9 +124,9 @@ public class RMakanManager : MonoBehaviour
     public void menuMakanan5()
     {
         Debug.Log("Makanan5");
-        energi = 497f;
+        energi = 497.0f;
         protein = 18.68f;
-        karbohidrat = 71f;
+        karbohidrat = 71.0f;
         lemak = 15.25f;
 
         statusGizi[0].text = "" + energi;
@@ -157,7 +155,7 @@ public class RMakanManager : MonoBehaviour
 
     IEnumerator warningPanel()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.35f);
         panelWarning.SetActive(true);
     }
 
@@ -212,6 +210,7 @@ public class RMakanManager : MonoBehaviour
         PlayerPrefs.SetFloat("Energi", energi);
         PlayerPrefs.SetFloat("Protein", protein);
         PlayerPrefs.SetFloat("Karbohidrat", karbohidrat);
+        PlayerPrefs.SetFloat("Lemak", lemak);
     }
 
 }

@@ -10,10 +10,9 @@ public class LoadScene : MonoBehaviour
         SceneLoader.sceneLoadProgress(name);
     }
 
-    public void resumeGame()
+    public void booksGame(string name)
     {
-        //SceneManager.LoadScene(1);
-        Debug.Log("Ini ke masuk Resume Game");
+        SceneLoader.sceneLoadProgress(name);
     }
 
     public void backMainMenu(string name)
