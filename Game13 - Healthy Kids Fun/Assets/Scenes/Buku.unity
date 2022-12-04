@@ -4418,7 +4418,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ada apa saja di tiap sepiring makanan?
+  m_text: Ada apa saja di tiap satu piring makanan?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6546a8f5cb871304b96c34dca40bec95, type: 2}
   m_sharedMaterial: {fileID: 2245581236665312682, guid: 6546a8f5cb871304b96c34dca40bec95, type: 2}
@@ -4452,7 +4452,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0

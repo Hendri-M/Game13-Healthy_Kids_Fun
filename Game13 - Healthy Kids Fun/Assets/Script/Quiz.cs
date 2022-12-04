@@ -76,10 +76,17 @@ public class Quiz : MonoBehaviour
 
     public void jawabBenar()
     {
-        energi += 10.0f;
-        protein += 10.0f;
-        karbohidrat += 10.0f;
-        lemak += 10.0f;
+        if (energi <= 1650f)
+            energi += 50.0f;
+
+        if (protein <= 40f)
+            protein += 10.0f;
+
+        if (karbohidrat <= 250f)
+            karbohidrat += 30.0f;
+
+        if (lemak <= 55f)
+            lemak += 10.0f;
 
         nilaiGizi[0].text = "" + energi;
         nilaiGizi[1].text = "" + protein;

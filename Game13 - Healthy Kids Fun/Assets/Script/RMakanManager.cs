@@ -12,13 +12,14 @@ public class RMakanManager : MonoBehaviour
     [Header("Image")]
     [SerializeField] Image loadKarakter;
     [SerializeField] Sprite[] poseKarakter;
+    [SerializeField] Image imageWarning;
 
     [Header("Nilai Gizi")]
     [SerializeField] TMP_Text[] statusGizi;
 
     [Header("GameObject")]
-    [SerializeField] UnityEngine.GameObject panelGizi;
-    [SerializeField] UnityEngine.GameObject panelWarning;
+    [SerializeField] GameObject panelGizi;
+    [SerializeField] GameObject panelWarning;
 
     int karakterTerpilih;
 
@@ -61,7 +62,7 @@ public class RMakanManager : MonoBehaviour
         statusGizi[3].text = "" + lemak;
         
         poseSenyum();
-        // saveStats();
+        saveStats();
 
         StartCoroutine(giziPanel());
         StartCoroutine(changePose());
@@ -79,7 +80,9 @@ public class RMakanManager : MonoBehaviour
         statusGizi[1].text = "" + protein;
         statusGizi[2].text = "" + karbohidrat;
         statusGizi[3].text = "" + lemak;
+
         poseSenyum();
+        saveStats();
 
         StartCoroutine(giziPanel());
         StartCoroutine(changePose());
@@ -97,7 +100,9 @@ public class RMakanManager : MonoBehaviour
         statusGizi[1].text = "" + protein;
         statusGizi[2].text = "" + karbohidrat;
         statusGizi[3].text = "" + lemak;
+
         poseSenyum();
+        saveStats();
 
         StartCoroutine(giziPanel());
         StartCoroutine(changePose());
@@ -115,7 +120,9 @@ public class RMakanManager : MonoBehaviour
         statusGizi[1].text = "" + protein;
         statusGizi[2].text = "" + karbohidrat;
         statusGizi[3].text = "" + lemak;
+
         poseSenyum();
+        saveStats();
 
         StartCoroutine(giziPanel());
         StartCoroutine(changePose());
@@ -133,7 +140,9 @@ public class RMakanManager : MonoBehaviour
         statusGizi[1].text = "" + protein;
         statusGizi[2].text = "" + karbohidrat;
         statusGizi[3].text = "" + lemak;
+
         poseSenyum();
+        saveStats();
 
         StartCoroutine(giziPanel());
         StartCoroutine(changePose());
@@ -156,6 +165,8 @@ public class RMakanManager : MonoBehaviour
     IEnumerator warningPanel()
     {
         yield return new WaitForSeconds(0.35f);
+
+        poseSedih();
         panelWarning.SetActive(true);
     }
 
@@ -165,8 +176,20 @@ public class RMakanManager : MonoBehaviour
         poseNormal();
     }
 
+    private void poseSedih()
+    {
+        if (karakterTerpilih == 0)
+        {
+            imageWarning.sprite = poseKarakter[8];
+        }
 
-    public void poseNormal()
+        if (karakterTerpilih == 1)
+        {
+            imageWarning.sprite = poseKarakter[9];
+        }
+    }
+
+    private void poseNormal()
     {
         if (karakterTerpilih == 0)
         {
@@ -179,7 +202,7 @@ public class RMakanManager : MonoBehaviour
         }
     }
 
-    public void poseSenyum()
+    private void poseSenyum()
     {
         if (karakterTerpilih == 0)
         {
@@ -192,7 +215,7 @@ public class RMakanManager : MonoBehaviour
         }
     }
 
-    public void poseTerkejut()
+    private void poseTerkejut()
     {
         if (karakterTerpilih == 0)
         {
@@ -205,7 +228,7 @@ public class RMakanManager : MonoBehaviour
         }
     }
 
-    public void saveStats()
+    private void saveStats()
     {
         PlayerPrefs.SetFloat("Energi", energi);
         PlayerPrefs.SetFloat("Protein", protein);
